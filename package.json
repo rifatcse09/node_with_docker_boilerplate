@@ -1,0 +1,23 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "keywords": ["your", "keywords", "here"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
